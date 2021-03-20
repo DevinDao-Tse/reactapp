@@ -1,5 +1,9 @@
 const person = (props) =>{
-    return <p>this is {props.name} testing from exporting</p>
+    return
+        <div>
+            <p>this is {props.name} testing from exporting</p>
+        </div>
+    
 }
 
 export default person
