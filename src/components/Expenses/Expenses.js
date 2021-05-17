@@ -8,6 +8,7 @@ export default function Expenses(props){
         <div className='expenses'>
             {data.map((v)=>(
                 <ExpenseItem
+                    key = {v.id}
                     title={v.title}
                     amount={v.amount}
                     date={v.date}/>
