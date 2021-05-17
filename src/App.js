@@ -1,7 +1,7 @@
 import React from 'react'
 import Expenses from './components/Expenses/Expenses'
 
-export default function App(){
+const App = () =>{
 
   const expenses = [
     {
@@ -32,3 +32,5 @@ export default function App(){
     </div>
   )
 };
+
+export default App
